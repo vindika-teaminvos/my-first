@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.flex-container-left {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(42, 64, 232, 0.799);
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.button-panel {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  border: none;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-bottom: 100vh;
+  padding-right: 5px;
+  text-decoration: none;
+  width: 200px;
+  font-size: 16px;
+}
+
+.flex-container-right {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(137, 133, 129);
+  justify-content: space-between;
+  align-items: start;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background: #254de4;
+  color: rgb(255, 255, 255);
+  margin: 50px;
+}
+
+.search {
+  width: 450px;
+  box-sizing: border-box;
+  border: 20px solid #ffffff;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.header {
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+
+.img {
+  padding: 5px;
+  width: 30px;
+}
+
+.box {
+  width: 500px;
+  border: 3px #a1a6a6;
+  border-style: dashed;
+  padding-top: 300px;
+  margin-top: 10px;
+}
+
+.flex-container-search {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;
+}
